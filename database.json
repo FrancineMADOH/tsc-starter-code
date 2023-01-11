@@ -1,0 +1,16 @@
+{
+    "dev": {
+      "driver": "pg",
+      "host": "127.0.0.1",
+      "database": "learnin_db",
+      "user": "franca",
+      "password": "pw123"
+    },
+    "test": {
+      "driver": "pg",
+      "host": "127.0.0.1",
+      "database": "learnin_db",
+      "user": "franca",
+      "password": "pw123"
+    }
+  }
