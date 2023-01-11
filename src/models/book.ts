@@ -14,7 +14,7 @@ export type book = {
     summary: string;
 }
 
-export class BookStore{
+export class bookStore{
 //index route
 async index(): Promise<book[]>{
 
