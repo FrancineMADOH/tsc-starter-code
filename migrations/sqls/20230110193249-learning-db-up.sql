@@ -8,11 +8,11 @@ CREATE TABLE book(
     published DATE,
     pages INT,
     genre VARCHAR(100),
-    available  BOOLEAN
+    available  BOOLEAN,
     summary TEXT
 );
 
-CREATE TABLE authors(
+CREATE TABLE author(
     id SERIAL PRIMARY KEY,
     author_name VARCHAR(200),
     birth_date DATE,

@@ -2,5 +2,5 @@
 
 /** remove or undo whatever change was made in the database via the up migration*/
 
-DROP TABLE books;
-DROP TABLE authors;
+DROP TABLE book;
+DROP TABLE author;

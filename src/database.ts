@@ -3,7 +3,7 @@ import { Pool } from "pg";
 
 dotenv.config()
 
-let client
+
 
 
 const {
@@ -11,7 +11,11 @@ const {
  POSTGRES_DB, 
  POSTGRES_USER, 
  POSTGRES_PASSWORD, 
+ ENV
 } = process.env
+console.log(ENV);
+
+let client
 
 if(ENV==='test'){
     //pool = connection to the db
@@ -19,7 +23,8 @@ if(ENV==='test'){
     host:POSTGRES_HOST,
     database:POSTGRES_DB,
     user: POSTGRES_USER,
-    password: POSTGRES_PASSWORD
+    password: POSTGRES_PASSWORD,
+
 })
 
 

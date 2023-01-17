@@ -2,15 +2,15 @@
     "dev": {
       "driver": "pg",
       "host": "127.0.0.1",
-      "database": "learnin_db",
-      "user": "franca",
-      "password": "pw123"
+      "database": "learning_db",
+      "user": "postgres",
+      "password": "postgres"
     },
     "test": {
       "driver": "pg",
       "host": "127.0.0.1",
-      "database": "learnin_db_test",
-      "user": "franca",
-      "password": "pw123"
+      "database": "learning_db_test",
+      "user": "postgres",
+      "password": "postgres"
     }
   }
